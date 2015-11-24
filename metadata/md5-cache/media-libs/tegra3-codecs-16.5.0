@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=NVIDIA Tegra3 X.org codecs
+EAPI=0
+HOMEPAGE=https://developer.nvidia.com/linux-tegra
+KEYWORDS=~arm
+LICENSE=nvidia
+RESTRICT=strip mirror
+SLOT=0
+SRC_URI=http://developer.download.nvidia.com/mobile/tegra/l4t/r16.5.0/cardhu_release_armhf/Tegra30_Linux-codecs_R16.5_armhf.tbz2
+_eclass_exported_funcs=src_unpack:- src_install:-
+_md5_=a1d80d48e54211e8a315232fd5b251c1
